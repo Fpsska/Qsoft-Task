@@ -1,0 +1,32 @@
+.header {
+    position: relative;
+    box-shadow: -2px 4px 8px -6px rgba(34, 60, 80, 0.2);
+    // &::before {
+    //     position: absolute;
+    //     left: 5%;
+    //     top: 5%;
+    //     height: 10px;
+    //     width: 2px;
+    //     background-color: #1515da;
+    // }
+}
+
+.header__wrapper {
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__input {
+    background: #ffffff;
+    border: 1px solid #ebebf1;
+    border-radius: 5px; 
+    padding: 8px 10px 8px 40px;
+    background-image: url(../../assets/images/search.svg);
+    background-repeat: no-repeat;
+    background-position: 2% center;
+    flex: 1;
+    margin: 0 60px;
+}
+

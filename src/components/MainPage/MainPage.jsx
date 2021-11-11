@@ -1,10 +1,13 @@
 import React from "react";
+import Header from "../Header/Header";
 
-const MainPage = () => {
+const MainPage = (props) => {
   return (
-    <div>
-      <h1>text</h1>
-    </div>
+    <>
+    <Header profileName={props.profileName}/>
+    <main>
+    </main>
+    </>
   );
 };
 

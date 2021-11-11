@@ -1,5 +1,5 @@
 const initialState = {
-    
+    profileName: "Константин"
 }
 
 const mainReducer = (state = initialState, action) => {
