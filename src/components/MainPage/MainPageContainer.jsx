@@ -3,7 +3,8 @@ import MainPage from "./MainPage";
 
 const mapStateToProps = (state) => {
   return {
-    profileName: state.mainPage.profileName
+    profileName: state.mainPage.profileName,
+    cards: state.mainPage.cards,
   };
 };
 

@@ -1,0 +1,20 @@
+.partner-card {
+    height: 120px;
+    width: 270px;
+    background: #FFF;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+    // margin: 0 30px 30px 0;
+}
+
+.partners__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 47px 0 0 0;
+    :last-child {
+        margin: 0 !important;
+    }
+    :not(:nth-child(4n)) {
+        margin: 0 30px 30px 0;
+    }
+}
