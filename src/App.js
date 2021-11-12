@@ -1,5 +1,5 @@
 import React from "react";
-import MainContainer from "./components/MainPage/MainPageContainer";
+import MainPage from "./components/MainPage/MainPage";
 import "./assets/scss/reset.scss"
 import "./assets/scss/media.scss"
 import "./App.scss"
@@ -8,7 +8,7 @@ import "./App.scss"
 function App() {
   return (
     <div className="App">
-      <MainContainer />
+      <MainPage/>
     </div>
   );
 }

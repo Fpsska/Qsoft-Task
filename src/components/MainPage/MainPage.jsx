@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import Header from "../Header/Header";
 import PartnersGallery from "../Partners/PartnersGallery";
+import { navHandler } from "../../Redux/Middleware/navHandler";
 
-const MainPage = ({profileName, isNavMobileVisible, navHandler, cards}) => {
+const MainPage = () => {
+  const { profileName, isNavMobileVisible, cards } = useSelector(
+    (state) => state.mainPage
+  );
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(navHandler());
+  }, [dispatch]);
+
   return (
     <>
       <Header

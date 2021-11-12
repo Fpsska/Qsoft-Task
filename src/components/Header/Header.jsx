@@ -1,20 +1,20 @@
-import React, { useEffect } from "react";
+import React from "react";
 import logo from "../../assets/images/logo.svg";
 import profileImage from "../../assets/images/profile-image.png";
 import SvgTemplate from "../Common/SvgTemplate";
 import Input from "../Common/Input/Input";
 import "./Header.scss";
 
-const Header = ({isNavMobileVisible, navHandler, profileName}) => {
-  useEffect(() => {
-    navHandler();
-  }, []);
-
+const Header = ({ isNavMobileVisible, profileName}) => {
   return (
     <header className="header">
       <div className="container header__container">
         <div className="header__section">
-          <a className="header__logo logo" href="https://qsoft.ru/" target="_black">
+          <a
+            className="header__logo logo"
+            href="https://qsoft.ru/"
+            target="_black"
+          >
             <img className="logo__image" src={logo} alt="logo" />
           </a>
         </div>
