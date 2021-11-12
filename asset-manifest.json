@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/qsoft-task/static/css/main.ae8d5e92.chunk.css",
+    "main.js": "/qsoft-task/static/js/main.edc681b7.chunk.js",
+    "main.js.map": "/qsoft-task/static/js/main.edc681b7.chunk.js.map",
+    "runtime-main.js": "/qsoft-task/static/js/runtime-main.3a2d94aa.js",
+    "runtime-main.js.map": "/qsoft-task/static/js/runtime-main.3a2d94aa.js.map",
+    "static/js/2.14f7d185.chunk.js": "/qsoft-task/static/js/2.14f7d185.chunk.js",
+    "static/js/2.14f7d185.chunk.js.map": "/qsoft-task/static/js/2.14f7d185.chunk.js.map",
+    "static/js/3.5939307c.chunk.js": "/qsoft-task/static/js/3.5939307c.chunk.js",
+    "static/js/3.5939307c.chunk.js.map": "/qsoft-task/static/js/3.5939307c.chunk.js.map",
+    "index.html": "/qsoft-task/index.html",
+    "static/css/main.ae8d5e92.chunk.css.map": "/qsoft-task/static/css/main.ae8d5e92.chunk.css.map",
+    "static/js/2.14f7d185.chunk.js.LICENSE.txt": "/qsoft-task/static/js/2.14f7d185.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/qsoft-task/static/media/cursor.78b86af6.svg",
+    "static/media/logo.svg": "/qsoft-task/static/media/logo.464e7dba.svg",
+    "static/media/profile-icon.svg": "/qsoft-task/static/media/profile-icon.69674b19.svg",
+    "static/media/search.svg": "/qsoft-task/static/media/search.689e6ef3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a2d94aa.js",
+    "static/js/2.14f7d185.chunk.js",
+    "static/css/main.ae8d5e92.chunk.css",
+    "static/js/main.edc681b7.chunk.js"
+  ]
+}
