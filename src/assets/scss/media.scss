@@ -1,0 +1,129 @@
+@media (max-width: 1209px) {
+    .partners__gallery {
+        justify-content: space-between;
+    }
+    .partner-card {
+        &:first-child,
+        &:last-child {
+            margin: 0 !important; 
+        }
+        &:nth-child(2n + 1) {
+            // odd
+            margin: 0 0 30px 0;
+        }
+        &:nth-child(2n) {
+            // even
+            margin: 0 30px 30px 30px;
+        }
+        &:nth-child(4n) {
+            margin: 0 30px 30px 0;
+        }
+        &:nth-child(5n) {
+            margin: 0 30px 0 30px;
+        }
+        &:nth-last-child(2) {
+            margin: 0 0 0 30px;
+        }
+    }
+}
+
+@media (max-width: 1170px) {
+    .partner-card {
+        &:first-child,
+        &:last-child {
+            margin: 0;
+        }
+        &:nth-child(2n + 1) {
+            // odd
+            margin: 0 0 30px 0;
+        }
+        &:nth-child(2n) {
+            // even
+            margin: 0 30px 30px 30px;
+        }
+        &:nth-child(4n) {
+            margin: 0 30px 0 0;
+        }
+        &:nth-last-child(2) {
+            margin: 0 0 0 30px;
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    .header__input {
+        display: none;
+    }
+    .partner-card {
+        flex: 0 0 229px;
+        &:nth-child(2n + 1) {
+            // odd
+            margin: 0 0 20px 0;
+        }
+        &:nth-child(2n) {
+            // even
+            margin: 0 20px 20px 20px;
+        }
+        &:nth-child(4n) {
+            margin: 0 20px 20px 0;
+        }
+        &:nth-last-child(2) {
+            // penultimate
+            margin: 0 0 0 20px;
+        }
+    }
+}
+
+@media (max-width: 766px) {
+    .partner-card {
+        &:nth-child(2n + 1) {
+            // odd
+            margin: 0 0 10px 0;
+        }
+        &:nth-child(2n) {
+            // even
+            margin: 0 10px 10px 10px;
+        }
+        &:nth-child(4n) {
+            margin: 0 10px 10px 0;
+        }
+        &:nth-last-child(2) {
+            // penultimate
+            margin: 0 0 0 10px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .partner-card {
+        &:nth-child(2n + 1) {
+            // odd
+            margin: 0 0 10px 0;
+        }
+        &:nth-child(2n) {
+            // even
+            margin: 0 0 10px 10px;
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    .header__input {
+        display: none;
+    }
+    .partners__gallery {
+        justify-content: center;
+    }
+    .partner-card {
+        max-width: 100%;
+        flex: 1 0 100%;
+        &:nth-child(2n + 1) {
+            // odd
+            margin: 0 0 0 0;
+        }
+        &:nth-child(2n) {
+            // even
+            margin: 20px 0 20px 0;
+        }
+    }
+}
