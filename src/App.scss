@@ -1,4 +1,4 @@
-$main: #FFF;
+$main: #fff;
 $gray: #768298;
 $black: #121920;
 
@@ -12,14 +12,12 @@ body {
 }
 
 .container {
-    max-width: 1210px;
+    max-width: 1210px; 
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .profile {
-    display: flex;
-    align-items: center;
     :not(:last-child) {
         margin-right: 10px;
     }

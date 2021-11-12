@@ -5,7 +5,7 @@
     .partner-card {
         &:first-child,
         &:last-child {
-            margin: 0 !important; 
+            margin: 0 !important;
         }
         &:nth-child(2n + 1) {
             // odd
@@ -94,9 +94,12 @@
 @media (max-width: 720px) {
     .header {
         box-shadow: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
     }
-    .header__wrapper.header__wrapper {
-        padding: 16px 20px;
+    .header__section-profile {
+        border: none;
+        padding: 0;
     }
     .partner-card {
         &:nth-child(2n + 1) {

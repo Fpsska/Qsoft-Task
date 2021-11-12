@@ -12,33 +12,44 @@ const Header = (props) => {
 
   return (
     <header className="header">
-      <div className="header__wrapper container">
-        <img className="header__image" src={logo} alt="logo" />
+      <div className="container header__container">
+        <div className="header__section">
+          <img className="header__image" src={logo} alt="logo" />
+        </div>
+        {/* /.section 1 */}
         <>
           {props.isNavMobileVisible ? (
             <></>
           ) : (
-            <Input isNavMobileVisible={props.isNavMobileVisible} />
+            <div className="header__section header__section__search">
+              <Input isNavMobileVisible={props.isNavMobileVisible} />
+            </div>
           )}
         </>
+        {/* /.section 2 */}
         <>
           {props.isNavMobileVisible ? (
-            <div className="header__profile icon">
-              <span className="icon__wrapper">
-                <SvgTemplate id="profile" />
-              </span>
+            <div className="header__section-profile">
+              <div className="header__profile icon">
+                <span className="icon__wrapper">
+                  <SvgTemplate id="profile" />
+                </span>
+              </div>
             </div>
           ) : (
-            <div className="header__profile profile">
-              <span className="profle__name">{props.profileName}</span>
-              <img
-                className="profile__image"
-                src={profileImage}
-                alt="profile-image"
-              />
+            <div className="header__section-profile">
+              <div className="header__profile profile">
+                <span className="profle__name">{props.profileName}</span>
+                <img
+                  className="profile__image"
+                  src={profileImage}
+                  alt="profile-image"
+                />
+              </div>
             </div>
           )}
         </>
+        {/* /.section 3 */}
       </div>
       <>
         {props.isNavMobileVisible ? (
