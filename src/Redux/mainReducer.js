@@ -1,5 +1,8 @@
+import { ACTION_SWITCH_HEADER_NAV } from "./actions"
+
 const initialState = {
     profileName: "Константин",
+    isNavMobileVisible: false,
     cards: [
         {
             id: 1,
@@ -34,6 +37,11 @@ const initialState = {
 
 const mainReducer = (state = initialState, action) => {
     switch (action.type) {
+        case ACTION_SWITCH_HEADER_NAV:
+            return {
+                ...state,
+                isNavMobileVisible: action.payload
+            }
         default:
             return state
     }

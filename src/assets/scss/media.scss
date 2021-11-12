@@ -108,6 +108,9 @@
 }
 
 @media (max-width: 520px) {
+    .partners {
+        padding: 0 0 73px 0;
+    }
     .header__input {
         display: none;
     }
@@ -115,6 +118,7 @@
         justify-content: center;
     }
     .partner-card {
+        min-height: 140px;
         max-width: 100%;
         flex: 1 0 100%;
         &:nth-child(2n + 1) {
