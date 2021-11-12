@@ -51,9 +51,6 @@
 }
 
 @media (max-width: 920px) {
-    .header__input {
-        display: none;
-    }
     .partner-card {
         flex: 0 0 229px;
         &:nth-child(2n + 1) {
@@ -95,6 +92,12 @@
 }
 
 @media (max-width: 720px) {
+    .header {
+        box-shadow: 0 0 0 0;
+    }
+    .header__wrapper.header__wrapper {
+        padding: 16px 20px;
+    }
     .partner-card {
         &:nth-child(2n + 1) {
             // odd
@@ -110,9 +113,6 @@
 @media (max-width: 520px) {
     .partners {
         padding: 0 0 73px 0;
-    }
-    .header__input {
-        display: none;
     }
     .partners__gallery {
         justify-content: center;

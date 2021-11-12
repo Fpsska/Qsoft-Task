@@ -5,7 +5,11 @@ import PartnersGallery from "../Partners/PartnersGallery";
 const MainPage = (props) => {
   return (
     <>
-      <Header profileName={props.profileName} isNavMobileVisible={props.isNavMobileVisible} navHandler={props.navHandler} />
+      <Header
+        profileName={props.profileName}
+        isNavMobileVisible={props.isNavMobileVisible}
+        navHandler={props.navHandler}
+      />
       <main>
         <div className="container">
           <div className="partners">
