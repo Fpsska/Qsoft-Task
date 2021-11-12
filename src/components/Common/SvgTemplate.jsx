@@ -1,7 +1,7 @@
 import React from "react";
 
-const SvgTemplate = (props) => {
-  switch (props.id) {
+const SvgTemplate = ({id}) => {
+  switch (id) {
     case "profile":
       return (
         <svg

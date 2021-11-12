@@ -5,9 +5,9 @@ import SvgTemplate from "../Common/SvgTemplate";
 import Input from "../Common/Input/Input";
 import "./Header.scss";
 
-const Header = (props) => {
+const Header = ({isNavMobileVisible, navHandler, profileName}) => {
   useEffect(() => {
-    props.navHandler();
+    navHandler();
   }, []);
 
   return (
@@ -20,17 +20,17 @@ const Header = (props) => {
         </div>
         {/* /.section 1 */}
         <>
-          {props.isNavMobileVisible ? (
+          {isNavMobileVisible ? (
             <></>
           ) : (
             <div className="header__section header__section__search">
-              <Input isNavMobileVisible={props.isNavMobileVisible} />
+              <Input isNavMobileVisible={isNavMobileVisible} />
             </div>
           )}
         </>
         {/* /.section 2 */}
         <>
-          {props.isNavMobileVisible ? (
+          {isNavMobileVisible ? (
             <div className="header__section-profile">
               <div className="header__profile icon">
                 <span className="icon__wrapper">
@@ -41,7 +41,7 @@ const Header = (props) => {
           ) : (
             <div className="header__section-profile">
               <div className="header__profile profile">
-                <span className="profle__name">{props.profileName}</span>
+                <span className="profle__name">{profileName}</span>
                 <img
                   className="profile__image"
                   src={profileImage}
@@ -54,8 +54,8 @@ const Header = (props) => {
         {/* /.section 3 */}
       </div>
       <>
-        {props.isNavMobileVisible ? (
-          <Input isNavMobileVisible={props.isNavMobileVisible} />
+        {isNavMobileVisible ? (
+          <Input isNavMobileVisible={isNavMobileVisible} />
         ) : (
           <></>
         )}

@@ -1,11 +1,11 @@
 import React from "react";
 import "./Input.scss";
 
-const Input = (props) => {
+const Input = ({isNavMobileVisible}) => {
   return (
     <input
       className={
-        props.isNavMobileVisible
+        isNavMobileVisible
           ? "header__input-mobile input"
           : "header__input input"
       }

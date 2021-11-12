@@ -2,8 +2,8 @@ import React from "react";
 import PartnerCard from "./PartnersCard";
 import "./Partners.scss";
 
-const PartnersGallery = (props) => {
-  const partnersGallery = props.cards.map((item) => {
+const PartnersGallery = ({cards}) => {
+  const partnersGallery = cards.map((item) => {
     return <PartnerCard key={item.id} image={item.image} />;
   });
   return <div className="partners__gallery">{partnersGallery}</div>;
