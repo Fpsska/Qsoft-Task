@@ -17,9 +17,16 @@ body {
     padding: 0 20px;
 }
 
+.logo__image {
+    cursor: url(./assets//images/cursor.svg), pointer;
+}
+
 .profile {
     :not(:last-child) {
         margin-right: 10px;
+    }
+    > * {
+        cursor: url(./assets//images/cursor.svg), pointer;
     }
 }
 .profile__image {

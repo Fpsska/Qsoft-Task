@@ -14,7 +14,9 @@ const Header = (props) => {
     <header className="header">
       <div className="container header__container">
         <div className="header__section">
-          <img className="header__image" src={logo} alt="logo" />
+          <a className="header__logo logo" href="https://qsoft.ru/" target="_black">
+            <img className="logo__image" src={logo} alt="logo" />
+          </a>
         </div>
         {/* /.section 1 */}
         <>

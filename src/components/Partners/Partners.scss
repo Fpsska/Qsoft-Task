@@ -8,13 +8,18 @@
     height: 120px;
     max-width: 270px;
     flex: 1 0 270px;
+
     background: #fff;
     border: 1px solid #ebebf1;
-    border-radius: 5px;
+    cursor: url(../../assets/images/cursor.svg), pointer;
+
+
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    border-radius: 5px;
     margin: 0 30px 30px 30px;
     padding: 15px;
     &:nth-child(2n + 1) {
