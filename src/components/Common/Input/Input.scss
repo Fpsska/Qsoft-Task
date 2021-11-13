@@ -1,14 +1,16 @@
 .input {
     background: #ffffff;
     border: 1px solid #ebebf1;
-    border-radius: 5px; 
+    border-radius: 5px;
+    cursor: url(../../../assets/images/cursor.svg), pointer;
     background-image: url(../../../assets//images/search.svg);
     background-repeat: no-repeat;
-    background-position: .9rem center;
-
+    background-position: 0.9rem center;
     flex: 1;
     margin: 0 60px;
-    padding: 8px 10px 8px 40px;
-
-    cursor: url(../../../assets/images/cursor.svg), pointer;
+    padding: 10px 10px 10px 40px;
+    &::placeholder {
+        color: #bbc4d6;
+        font-size: 14px;
+    }
 }

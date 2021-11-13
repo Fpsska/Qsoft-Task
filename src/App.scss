@@ -23,7 +23,7 @@ body {
 
 .profile {
     :not(:last-child) {
-        margin-right: 10px;
+        margin-right: 13px;
     }
     > * {
         cursor: url(./assets//images/cursor.svg), pointer;
@@ -42,13 +42,3 @@ body {
     color: $gray;
 }
 
-.partners {
-    margin: 70px 0 0 0;
-}
-.partners__title {
-    text-transform: uppercase;
-    color: $black;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 44.8px;
-}

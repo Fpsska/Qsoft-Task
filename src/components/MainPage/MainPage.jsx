@@ -26,7 +26,7 @@ const MainPage = () => {
         <div className="container">
           <div className="partners">
             <div className="partners__wrapper">
-              <h1 className="partners__title">Наши партнеры</h1>
+              <h1 className="partners__title">Наши партнёры</h1>
               <PartnersGallery cards={cards} />
             </div>
           </div>

@@ -69,6 +69,29 @@
             margin: 0 0 0 20px;
         }
     }
+    .partner-card__image {
+        width: 100%;
+        // padding: 15px;
+    }
+    .profile.profile {
+        :not(:last-child) {
+            margin-right: 11px;
+        }
+    }
+    .input {
+        margin: 0 50px;
+        padding: 10px 10px 10px 38px;
+        background-position: 0.7rem center;
+    }
+    .partners.partners {
+        margin: 70px 0 0 0;
+    }
+    .partners__gallery {
+        margin: 30px 0 0 0;
+    }
+    .partners__title.partners__title {
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 766px) {
@@ -132,5 +155,18 @@
             // even
             margin: 20px 0 20px 0;
         }
+    }
+    .partner-card__image {
+        width: 85%;
+    }
+    .header__section.header__section {
+        padding: 17px 0;
+    }
+    .partners.partners {
+        margin: 72px 0 0 0;
+    }
+    .header__input-mobile.header__input-mobile {
+        background-position: 1.35rem 50%;
+        padding: 10px 10px 10px 49px;
     }
 }
