@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Header from "../Header/Header";
 import PartnersGallery from "../Partners/PartnersGallery";
-import { navHandler } from "../../Redux/Middleware/navHandler";
+
+import { switchHeaderNav } from "../../Redux/actions";
 
 const MainPage = () => {
   const { profileName, isNavMobileVisible, cards } = useSelector(
@@ -11,16 +12,28 @@ const MainPage = () => {
 
   const dispatch = useDispatch();
 
+  const defineNavStatus = () => {
+    if (window.innerWidth < 720) {
+      dispatch(switchHeaderNav(true));
+    } else if (window.innerWidth > 720) {
+      dispatch(switchHeaderNav(false));
+    }
+  };
+
   useEffect(() => {
-    dispatch(navHandler());
-  }, [dispatch]);
+    window.addEventListener("resize", defineNavStatus);
+    window.addEventListener("load", defineNavStatus);
+    return () => {
+      window.removeEventListener("resize", defineNavStatus);
+      window.removeEventListener("load", defineNavStatus);
+    };
+  }, []);
 
   return (
     <>
       <Header
         profileName={profileName}
         isNavMobileVisible={isNavMobileVisible}
-        navHandler={navHandler}
       />
       <main>
         <div className="container">
