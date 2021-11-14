@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Qsoft-Task/static/css/main.2d03b6fc.chunk.css",
-    "main.js": "/Qsoft-Task/static/js/main.fea8e250.chunk.js",
-    "main.js.map": "/Qsoft-Task/static/js/main.fea8e250.chunk.js.map",
+    "main.js": "/Qsoft-Task/static/js/main.8966a052.chunk.js",
+    "main.js.map": "/Qsoft-Task/static/js/main.8966a052.chunk.js.map",
     "runtime-main.js": "/Qsoft-Task/static/js/runtime-main.1174d500.js",
     "runtime-main.js.map": "/Qsoft-Task/static/js/runtime-main.1174d500.js.map",
     "static/js/2.91e99fdd.chunk.js": "/Qsoft-Task/static/js/2.91e99fdd.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.1174d500.js",
     "static/js/2.91e99fdd.chunk.js",
     "static/css/main.2d03b6fc.chunk.css",
-    "static/js/main.fea8e250.chunk.js"
+    "static/js/main.8966a052.chunk.js"
   ]
 }
