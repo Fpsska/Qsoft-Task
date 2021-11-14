@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useLayoutEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Header from "../Header/Header";
 import PartnersGallery from "../Partners/PartnersGallery";
@@ -10,6 +10,7 @@ const MainPage = () => {
     (state) => state.mainPage
   );
 
+
   const dispatch = useDispatch();
 
   const defineNavStatus = () => {
@@ -20,7 +21,7 @@ const MainPage = () => {
     }
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     window.addEventListener("resize", defineNavStatus);
     window.addEventListener("load", defineNavStatus);
     return () => {
