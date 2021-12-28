@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Qsoft-Task/static/css/main.2d03b6fc.chunk.css",
-    "main.js": "/Qsoft-Task/static/js/main.8966a052.chunk.js",
-    "main.js.map": "/Qsoft-Task/static/js/main.8966a052.chunk.js.map",
-    "runtime-main.js": "/Qsoft-Task/static/js/runtime-main.1174d500.js",
-    "runtime-main.js.map": "/Qsoft-Task/static/js/runtime-main.1174d500.js.map",
-    "static/js/2.91e99fdd.chunk.js": "/Qsoft-Task/static/js/2.91e99fdd.chunk.js",
-    "static/js/2.91e99fdd.chunk.js.map": "/Qsoft-Task/static/js/2.91e99fdd.chunk.js.map",
-    "static/js/3.27795b74.chunk.js": "/Qsoft-Task/static/js/3.27795b74.chunk.js",
-    "static/js/3.27795b74.chunk.js.map": "/Qsoft-Task/static/js/3.27795b74.chunk.js.map",
+    "main.css": "/Qsoft-Task/static/css/main.fcfe03fd.chunk.css",
+    "main.js": "/Qsoft-Task/static/js/main.d7ed9b1d.chunk.js",
+    "main.js.map": "/Qsoft-Task/static/js/main.d7ed9b1d.chunk.js.map",
+    "runtime-main.js": "/Qsoft-Task/static/js/runtime-main.91949721.js",
+    "runtime-main.js.map": "/Qsoft-Task/static/js/runtime-main.91949721.js.map",
+    "static/js/2.fd198175.chunk.js": "/Qsoft-Task/static/js/2.fd198175.chunk.js",
+    "static/js/2.fd198175.chunk.js.map": "/Qsoft-Task/static/js/2.fd198175.chunk.js.map",
+    "static/js/3.5939307c.chunk.js": "/Qsoft-Task/static/js/3.5939307c.chunk.js",
+    "static/js/3.5939307c.chunk.js.map": "/Qsoft-Task/static/js/3.5939307c.chunk.js.map",
     "index.html": "/Qsoft-Task/index.html",
-    "static/css/main.2d03b6fc.chunk.css.map": "/Qsoft-Task/static/css/main.2d03b6fc.chunk.css.map",
-    "static/js/2.91e99fdd.chunk.js.LICENSE.txt": "/Qsoft-Task/static/js/2.91e99fdd.chunk.js.LICENSE.txt",
+    "static/css/main.fcfe03fd.chunk.css.map": "/Qsoft-Task/static/css/main.fcfe03fd.chunk.css.map",
+    "static/js/2.fd198175.chunk.js.LICENSE.txt": "/Qsoft-Task/static/js/2.fd198175.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/Qsoft-Task/static/media/cursor.78b86af6.svg",
     "static/media/logo.svg": "/Qsoft-Task/static/media/logo.464e7dba.svg",
     "static/media/profile-icon.svg": "/Qsoft-Task/static/media/profile-icon.69674b19.svg",
     "static/media/search.svg": "/Qsoft-Task/static/media/search.689e6ef3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1174d500.js",
-    "static/js/2.91e99fdd.chunk.js",
-    "static/css/main.2d03b6fc.chunk.css",
-    "static/js/main.8966a052.chunk.js"
+    "static/js/runtime-main.91949721.js",
+    "static/js/2.fd198175.chunk.js",
+    "static/css/main.fcfe03fd.chunk.css",
+    "static/js/main.d7ed9b1d.chunk.js"
   ]
 }
