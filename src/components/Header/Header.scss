@@ -14,6 +14,10 @@
 .header__section__search {
     flex: 1;
 }
+.header__section__search--mobile.header__section__search--mobile {
+    width: 100%;
+    padding: 0 !important;
+}
 .header__section.header__section {
     padding: 20px 0;
     display: flex;

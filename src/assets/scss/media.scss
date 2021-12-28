@@ -71,7 +71,6 @@
     }
     .partner-card__image {
         width: 100%;
-        // padding: 15px;
     }
     .profile.profile {
         :not(:last-child) {
@@ -79,9 +78,7 @@
         }
     }
     .input {
-        margin: 0 50px;
         padding: 10px 10px 10px 38px;
-        background-position: 0.7rem center;
     }
     .partners.partners {
         margin: 70px 0 0 0;
@@ -134,6 +131,10 @@
             margin: 0 0 10px 10px;
         }
     }
+    .form__button.form__button {
+        top: 14px;
+        left: 14px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -166,7 +167,9 @@
         margin: 72px 0 0 0;
     }
     .header__input-mobile.header__input-mobile {
-        background-position: 1.35rem 50%;
         padding: 10px 10px 10px 49px;
+    }
+    .form__button.form__button {
+        top: 10px;
     }
 }

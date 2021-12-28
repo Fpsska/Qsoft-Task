@@ -1,6 +1,6 @@
 import React from "react";
 
-const SvgTemplate = ({id}) => {
+const SvgTemplate = ({ id }) => {
   switch (id) {
     case "profile":
       return (
@@ -22,6 +22,25 @@ const SvgTemplate = ({id}) => {
             d="M12.0576 11.229C14.2636 11.229 16.0576 9.435 16.0576 7.229C16.0576 5.023 14.2636 3.229 12.0576 3.229C9.85162 3.229 8.05762 5.023 8.05762 7.229C8.05762 9.435 9.85162 11.229 12.0576 11.229"
             stroke="#34AADD"
             strokeWidth="2"
+          />
+        </svg>
+      );
+    case "search":
+      return (
+        <svg
+          className="icon__image"
+          width="18"
+          height="18"
+          viewBox="0 0 18 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17 17L12.0962 12.0962M12.0962 12.0962C13.2725 10.9199 14 9.29493 14 7.5C14 3.91015 11.0899 1 7.5 1C3.91015 1 1 3.91015 1 7.5C1 11.0899 3.91015 14 7.5 14C9.29493 14 10.9199 13.2725 12.0962 12.0962Z"
+            stroke="#768298"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
           />
         </svg>
       );

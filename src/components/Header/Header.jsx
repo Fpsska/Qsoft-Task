@@ -5,7 +5,7 @@ import SvgTemplate from "../Common/SvgTemplate";
 import Input from "../Common/Input/Input";
 import "./Header.scss";
 
-const Header = ({ isNavMobileVisible, profileName}) => {
+const Header = ({ isNavMobileVisible, profileName }) => {
   return (
     <header className="header">
       <div className="container header__container">
@@ -24,7 +24,12 @@ const Header = ({ isNavMobileVisible, profileName}) => {
             <></>
           ) : (
             <div className="header__section header__section__search">
-              <Input isNavMobileVisible={isNavMobileVisible} />
+              <form action="#" className="form">
+                <Input isNavMobileVisible={isNavMobileVisible} />
+                <button className="form__button" type="submit">
+                  <SvgTemplate id="search" />
+                </button>
+              </form>
             </div>
           )}
         </>
@@ -55,7 +60,14 @@ const Header = ({ isNavMobileVisible, profileName}) => {
       </div>
       <>
         {isNavMobileVisible ? (
-          <Input isNavMobileVisible={isNavMobileVisible} />
+          <div className="header__section header__section__search--mobile">
+            <form className="form form--mobile" action="#">
+              <Input isNavMobileVisible={isNavMobileVisible} />
+              <button className="form__button" type="submit">
+                <SvgTemplate id="search" />
+              </button>
+            </form>
+          </div>
         ) : (
           <></>
         )}
