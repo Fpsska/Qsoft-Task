@@ -1,0 +1,39 @@
+.form {
+    position: relative;
+    width: 100%;
+    margin: 0 60px;
+    &__button {
+        position: absolute;
+        left: 7px;
+        top: 9px;
+        background-color: transparent;
+    }
+}
+.form--mobile {
+    margin: 0;
+}
+.form__input {
+    background: #ffffff;
+    border: 1px solid #ebebf1;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    cursor: url(../../../assets/images/cursor.svg), pointer;
+    &::placeholder {
+        color: #bbc4d6;
+        font-size: 14px;
+    }
+}
+.form__input-mobile.form__input-mobile {
+    margin: 0 0 0 0;
+    padding: 16px 10px 8px 50px;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #ebebf1;
+    width: 100%;
+    background-position: 0.9rem 65%;
+    box-shadow: -2px 4px 8px -6px rgba(34, 60, 80, 0.2);
+    &::placeholder {
+        font-size: 14px;
+    }
+}

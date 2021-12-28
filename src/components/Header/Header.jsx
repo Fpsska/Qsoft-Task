@@ -1,11 +1,16 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import logo from "../../assets/images/logo.svg";
 import profileImage from "../../assets/images/profile-image.png";
 import SvgTemplate from "../Common/SvgTemplate";
-import Input from "../Common/Input/Input";
+import Form from "../Common/Form/Form";
 import "./Header.scss";
 
-const Header = ({ isNavMobileVisible, profileName }) => {
+const Header = () => {
+  const { isNavMobileVisible, profileName } = useSelector(
+    (state) => state.mainPage
+  );
+
   return (
     <header className="header">
       <div className="container header__container">
@@ -24,12 +29,7 @@ const Header = ({ isNavMobileVisible, profileName }) => {
             <></>
           ) : (
             <div className="header__section header__section__search">
-              <form action="#" className="form">
-                <Input isNavMobileVisible={isNavMobileVisible} />
-                <button className="form__button" type="submit">
-                  <SvgTemplate id="search" />
-                </button>
-              </form>
+              <Form isNavMobileVisible={isNavMobileVisible} />
             </div>
           )}
         </>
@@ -61,12 +61,7 @@ const Header = ({ isNavMobileVisible, profileName }) => {
       <>
         {isNavMobileVisible ? (
           <div className="header__section header__section__search--mobile">
-            <form className="form form--mobile" action="#">
-              <Input isNavMobileVisible={isNavMobileVisible} />
-              <button className="form__button" type="submit">
-                <SvgTemplate id="search" />
-              </button>
-            </form>
+            <Form isNavMobileVisible={isNavMobileVisible} />
           </div>
         ) : (
           <></>

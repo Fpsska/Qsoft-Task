@@ -42,17 +42,4 @@ body {
     color: $gray;
 }
 
-.form {
-    position: relative;
-    width: 100%;
-    margin: 0 60px;
-    &__button {
-        position: absolute;
-        left: 7px;
-        top: 9px;
-        background-color: transparent;
-    }
-}
-.form--mobile {
-    margin: 0;
-}
+
