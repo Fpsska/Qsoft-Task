@@ -1,8 +1,6 @@
 # Qsoft-task
-```
-GH-PAGES:
-```
-- [qsoft-task](https://fpsska.github.io/Qsoft-Task/)
+
+### `Watch demo` _[Qsoft-task](https://fpsska.github.io/Qsoft-Task/)_
 
 # Getting Started with Create React App
 
